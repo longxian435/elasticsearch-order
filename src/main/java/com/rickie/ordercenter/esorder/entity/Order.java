@@ -23,7 +23,7 @@ public class Order {
     private Date createTime;
     private String memo;
 
-    private static final String orderIndexPrefix = "order_";
+    private static final String orderIndexPrefix = "order2_";
 
     public String getIndexName() {
         try{

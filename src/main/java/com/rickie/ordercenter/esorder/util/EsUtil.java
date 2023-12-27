@@ -34,9 +34,9 @@ import java.util.*;
 
 @Component
 public class EsUtil <T>{
-    public static final String INDEX_TEMPLATE_NAME = "order_template";
-    public static final String INDEX_TEMPLATE_JSON_FILE = "order_template.json";
-    public static final String INDEX_ALIAS = "order";
+    public static final String INDEX_TEMPLATE_NAME = "order_template2";
+    public static final String INDEX_TEMPLATE_JSON_FILE = "order_template2.json";
+    public static final String INDEX_ALIAS = "order2";
 
     @Autowired
     public ElasticsearchConfig elasticsearchConfig;
